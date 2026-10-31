@@ -1,86 +1,68 @@
 # TieEdu AI Assistant 🎓
 
-### Internship Project Showcase | AI-Powered Educational Chatbot
+### Internship Project Showcase | Conversational Educational & Career Assistant
 
 ## 1. Project Overview
 
-TieEdu AI Assistant is a conversational chatbot developed for the TieEdu education and career platform. It aims to help students and early-career developers find relevant information about competitive programming, recruitment drives, courses, and interview preparation.
+TieEdu AI Assistant is a conversational assistant developed for the TieEdu education and career platform. It helps students and early-career developers access information about competitive programming, recruitment drives, courses, and interview preparation.
 
-The project focuses on building a modular chatbot architecture that can evolve from mock data and AI providers to real API and LLM integrations.
+The assistant is available through two interfaces: a **floating chatbot integrated into the TieEdu website** and a **browser extension** for convenient access while browsing.
 
 ## 2. Problem Statement
 
-Students often need to search across different resources to find information about recruitment opportunities, programming courses, eligibility criteria, and preparation roadmaps.
+Students often need to explore multiple resources to find relevant information about recruitment opportunities, programming courses, eligibility criteria, and preparation roadmaps.
 
-The goal of this project was to provide a conversational interface where users could access relevant information more easily.
+The goal was to provide an accessible conversational experience that makes finding educational and career-related information easier.
 
 ## 3. My Contribution
 
-I worked on this project as part of my internship at TieEdu.
+Developed as part of my internship at TieEdu, my contributions included:
 
-My work involved contributing to:
-
-- Development of a floating chatbot interface.
-- Frontend and backend integration.
-- Designing modular service and provider abstractions.
-- Implementing chatbot request handling and context retrieval.
+- Developing the floating chatbot interface for the TieEdu website.
+- Building the browser extension to provide an additional access point.
+- Working on frontend and backend integration.
+- Contributing to modular chatbot services and request handling.
 - Testing application workflows and handling error scenarios.
-
-*Only retain the contributions that accurately represent your individual work.*
 
 ## 4. Key Features
 
-- Floating chatbot interface.
-- Conversational message handling.
-- Quick-action prompts.
+- Two access points: floating chatbot and browser extension.
+- Interactive conversational interface.
+- Quick-action prompts for common queries.
 - Context-based information retrieval.
-- Centralized backend error handling.
-- Modular frontend and backend architecture.
+- Structured handling of chatbot requests and errors.
+- Modular architecture designed for future enhancements.
 
 ## 5. Technology Stack
 
-- Frontend: React, TypeScript, Vite, Tailwind CSS.
-- Backend: Node.js, Express.js, TypeScript.
-- Validation: Zod.
-- Development tools: Git and GitHub.
+- **Frontend:** React, TypeScript, Vite, Tailwind CSS.
+- **Backend:** Node.js, Express.js, TypeScript.
+- **Validation:** Zod.
+- **Tools:** Git and GitHub.
 
 ## 6. Architecture Overview
 
-The application follows a decoupled architecture:
+The application follows a modular, decoupled architecture that separates the user interface, backend services, data retrieval, and AI provider responsibilities.
 
-1. Frontend chatbot widget receives user queries.
-2. Backend API handles incoming chat requests.
-3. Chatbot service coordinates the request.
-4. Repository abstraction provides relevant educational data.
-5. AI provider abstraction handles intent classification and response generation.
-
-The architecture separates business logic from data sources and AI providers.
+This approach supports maintainability and allows individual components to evolve as the application grows.
 
 ## 7. Development Challenges
 
-Some important areas explored during development included:
+Key areas explored during development included:
 
-- Keeping frontend and backend responsibilities separate.
-- Designing reusable service interfaces.
+- Maintaining consistency across two chatbot interfaces.
+- Integrating frontend components with backend services.
+- Structuring reusable and modular services.
 - Handling API errors and unsuccessful responses.
-- Making the architecture adaptable to future integrations.
-- Maintaining consistent request and response structures.
+- Designing the application to support future integrations.
 
 ## 8. Current Scope and Limitations
 
-The documented Phase 1 implementation uses isolated mock datasets and a deterministic mock AI provider.
-
-Production AI integration, live TieEdu API integration, authentication, and persistent chat history were identified as future development areas.
+The initial documented implementation uses isolated mock datasets and a deterministic mock AI provider. Live platform data, production AI integration, authentication, and persistent chat history were identified as areas for future development.
 
 ## 9. Key Learnings
 
-Working on this project helped me understand:
-
-- How conversational applications are structured.
-- How frontend and backend services communicate.
-- Why modular architecture matters.
-- How context retrieval supports chatbot responses.
-- Why error handling and response reliability are important in AI applications.
+This project provided practical experience in building conversational applications, integrating frontend and backend services, designing modular architectures, handling application errors, and developing multiple interfaces for a shared assistant experience.
 
 ---
 
