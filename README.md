@@ -8,13 +8,25 @@ TieEdu AI Assistant is a conversational assistant developed for the TieEdu educa
 
 The assistant is available through two interfaces: a **floating chatbot integrated into the TieEdu website** and a **browser extension** for convenient access while browsing.
 
-## 2. Problem Statement
+## 2. Project Preview
+
+### Browser Extension
+The browser extension provides convenient access to the TieEdu assistant while browsing.
+
+![TieEdu Browser Extension](assest/Screenshot%202026-10-12%20123102.png)
+
+### Floating Chatbot
+The floating chatbot is integrated into the TieEdu website, allowing users to interact with the assistant directly on the platform.
+
+![TieEdu Floating Chatbot](assest/Screenshot%202026-10-12%20123714.png)
+
+## 3. Problem Statement
 
 Students often need to explore multiple resources to find relevant information about recruitment opportunities, programming courses, eligibility criteria, and preparation roadmaps.
 
 The goal was to provide an accessible conversational experience that makes finding educational and career-related information easier.
 
-## 3. My Contribution
+## 4. My Contribution
 
 Developed as part of my internship at TieEdu, my contributions included:
 
@@ -24,7 +36,7 @@ Developed as part of my internship at TieEdu, my contributions included:
 - Contributing to modular chatbot services and request handling.
 - Testing application workflows and handling error scenarios.
 
-## 4. Key Features
+## 5. Key Features
 
 - Two access points: floating chatbot and browser extension.
 - Interactive conversational interface.
@@ -33,20 +45,20 @@ Developed as part of my internship at TieEdu, my contributions included:
 - Structured handling of chatbot requests and errors.
 - Modular architecture designed for future enhancements.
 
-## 5. Technology Stack
+## 6. Technology Stack
 
 - **Frontend:** React, TypeScript, Vite, Tailwind CSS.
 - **Backend:** Node.js, Express.js, TypeScript.
 - **Validation:** Zod.
 - **Tools:** Git and GitHub.
 
-## 6. Architecture Overview
+## 7. Architecture Overview
 
 The application follows a modular, decoupled architecture that separates the user interface, backend services, data retrieval, and AI provider responsibilities.
 
 This approach supports maintainability and allows individual components to evolve as the application grows.
 
-## 7. Development Challenges
+## 8. Development Challenges
 
 Key areas explored during development included:
 
@@ -56,11 +68,11 @@ Key areas explored during development included:
 - Handling API errors and unsuccessful responses.
 - Designing the application to support future integrations.
 
-## 8. Current Scope and Limitations
+## 9. Current Scope and Limitations
 
 The initial documented implementation uses isolated mock datasets and a deterministic mock AI provider. Live platform data, production AI integration, authentication, and persistent chat history were identified as areas for future development.
 
-## 9. Key Learnings
+## 10. Key Learnings
 
 This project provided practical experience in building conversational applications, integrating frontend and backend services, designing modular architectures, handling application errors, and developing multiple interfaces for a shared assistant experience.
 
